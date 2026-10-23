@@ -1,0 +1,30 @@
+# Firmware images and decrypted plaintext: never commit
+*.bin
+*.dec
+*.BIN
+*.DEC
+resource744.body.bin
+
+# Keys, signatures and personal credentials
+nikon_key.json
+sig_*.json
+*.pem
+*.key
+.env
+
+# Build outputs
+*.o
+build/
+out/
+z9_patches*.json
+z9_entries.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large model / dataset artefacts
+*.pt
+checkpoints*/
+dataset*/
